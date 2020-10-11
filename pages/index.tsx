@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import { Feed } from '../components';
 
 export default function Front() {
   return (
@@ -7,7 +8,9 @@ export default function Front() {
       <Head>
         <title>Front page of the internet</title>
       </Head>
-      <main>Hello world from Next!</main>
+      <main>
+        <Feed />
+      </main>
     </>
   );
 }
