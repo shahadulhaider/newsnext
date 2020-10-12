@@ -3,14 +3,14 @@ import styled from 'styled-components';
 export const Card = styled.a`
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 0 0 1px rgba(0,0,0,0.033), 0 4px 25px rgba(0,0,0,0.07);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.033), 0 4px 25px rgba(0, 0, 0, 0.07);
   color: black;
   text-decoration: none;
   transition: all 0.2s;
 
   &:hover {
-    colorL blink;
-    box-shadow: 0 0 0 1px rgba(0,0,0,0.033), 0 6px 35px rgba(0,0,0,0.2);
+    color: black;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.033), 0 6px 35px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
   }
 `;
@@ -36,7 +36,7 @@ export const Title = styled.h3`
   font-size: 1.4rem;
 `;
 
-export const Content = styled.div`
+export const Lead = styled.div`
   margin: 0 20px 20px;
 
   & > * {

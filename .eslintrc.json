@@ -87,6 +87,7 @@
       {
         "allow": ["warn", "error"]
       }
-    ]
+    ],
+    "no-return-await": 0
   }
 }
